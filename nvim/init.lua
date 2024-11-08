@@ -8,7 +8,7 @@ local g = vim.g
 -- g.maplocalleader = ' '
 
 opt.compatible = false
-
+cmd.colorcheme = 'onenord'
 -- Enable true colour support
 if fn.has('termguicolors') then
   opt.termguicolors = true
@@ -93,7 +93,6 @@ vim.diagnostic.config {
 }
 
 g.editorconfig = true
-
 vim.opt.colorcolumn = '100'
 
 -- Native plugins
